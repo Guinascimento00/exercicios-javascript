@@ -1,0 +1,24 @@
+<!DoCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Aula 3</title>
+    <script type="text/javascript">
+    function verificar () {
+        var numero = document.getElementById("num").value;
+        if(numero>=100 && numero<=200) {
+          alert("Este numero esta dentro do intervalo");
+        }
+          else {
+              alert("Este numero não esta no intervalo");
+          }
+        }
+    
+    </script>
+    </head>
+    <body>
+     <h1>Digite um numero</h1>
+     <input type="number" id="num">
+     <button onclick="verificar()">Resultado</button>
+    </body>
+    </html>

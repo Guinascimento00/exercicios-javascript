@@ -1,0 +1,27 @@
+<!DoCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Aula 3</title>
+    <script type="text/javascript">
+    function verificar () {
+        var time1 = parseInt(document.getElementById("gols1").value);
+        var time2 = parseInt(document.getElementById("gols2").value);
+        if (time1>time2) {
+            alert("Time 1 venceu");
+        }
+       else if(time2>time1) {
+            alert("Time 2 venceu");
+        }
+        else {
+            alert("Deu empate");
+        }
+    }
+    </script>
+    </head>
+    <body>
+      <input type="number" id="gols1">
+      <input type="number" id="gols2">
+      <button></button>
+    </body>
+    </html>
